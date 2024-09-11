@@ -1,0 +1,16 @@
+
+<h1>Este es el componente de la Calculadora</h1>
+
+<h2>Two way Binding</h2>
+<p>Number 1:</p><input type="number" [(ngModel)]="num1"/>
+<p>Number 2:</p><input type="number" [(ngModel)]="num2"/>
+<button (click)="sum()">Sum</button>
+<br />
+<p>Result: {{total}}</p>
+
+<p>El numero 1 ingresado fue: {{num1}}</p>
+
+
+<h3>{{titularARecibir}}</h3>
+
+<button (click)="enviarDatosAlPadre()">Enviar Datos al Padre</button>
